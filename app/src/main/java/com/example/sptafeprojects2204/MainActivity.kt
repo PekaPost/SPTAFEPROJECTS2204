@@ -66,6 +66,7 @@ class MainActivity : AppCompatActivity() {
 
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
+        // add menu
         menu.add(Menu.NONE,menuADD,Menu.NONE,"ADD")
         return super.onCreateOptionsMenu(menu)
     }
